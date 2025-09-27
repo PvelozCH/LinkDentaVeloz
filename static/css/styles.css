@@ -1,0 +1,80 @@
+
+/* styles.css */
+/* Autor: Gemini */
+/* Fecha: 26-09-2025 */
+/* Descripción: Estilos personalizados para la aplicación LinkDentaVeloz. */
+
+body {
+    /* Se usa un color de fondo sutil para no cansar la vista */
+    background-color: #f8f9fa;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+header.bg-primary {
+    /* Se define un gradiente para el encabezado, más moderno que un color sólido */
+    background: linear-gradient(90deg, #0d6efd, #0a58ca);
+}
+
+.card-header {
+    background-color: #e9ecef;
+    border-bottom: 1px solid #dee2e6;
+}
+
+/* Estilo para las etiquetas de estado del tratamiento */
+.badge {
+    font-size: 0.9em;
+    padding: 0.5em 0.75em;
+}
+
+/* Estilos para el modal de detalles */
+#modal-body-content h6 {
+    color: #0d6efd; /* Color primario para los subtítulos */
+    font-weight: bold;
+    margin-top: 1rem;
+    border-bottom: 2px solid #e9ecef;
+    padding-bottom: 0.5rem;
+}
+
+#modal-body-content p {
+    margin-bottom: 0.5rem;
+}
+
+#modal-body-content .info-grid {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    gap: 0.5rem;
+}
+
+#modal-body-content .info-grid strong {
+    color: #495057;
+}
+
+/* --- Estilos para la nueva página de bienvenida --- */
+
+.landing-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to top, #f8f9fa, #e9ecef);
+    text-align: center;
+}
+
+.landing-box {
+    background: white;
+    padding: 3rem 4rem;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+}
+
+.btn-glowing {
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 0 10px rgba(13, 110, 253, 0.5);
+}
+
+.btn-glowing:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 0 20px rgba(13, 110, 253, 0.8);
+}
+

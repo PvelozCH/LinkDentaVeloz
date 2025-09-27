@@ -1,0 +1,71 @@
+[
+  {
+    "id_consulta": "C001",
+    "paciente": {
+      "nombre": "Ana García",
+      "id_paciente": "P078",
+      "edad": 34,
+      "genero": "Femenino"
+    },
+    "fecha": "2025-09-26",
+    "hora": "10:00 AM",
+    "dentista": "Dr. Carlos Sánchez",
+    "motivo_consulta": "Revisión y limpieza dental.",
+    "diagnostico": {
+      "descripcion": "Placa y sarro.",
+      "codigo_cie": "K03.6"
+    },
+    "tratamiento": {
+      "procedimiento": "Profilaxis.",
+      "costo_usd": 80,
+      "estado": "Completado"
+    },
+    "notas_adicionales": "Mejorar técnica de cepillado."
+  },
+  {
+    "id_consulta": "C002",
+    "paciente": {
+      "nombre": "Luis Martínez",
+      "id_paciente": "P102",
+      "edad": 45,
+      "genero": "Masculino"
+    },
+    "fecha": "2025-09-26",
+    "hora": "11:30 AM",
+    "dentista": "Dra. Elena Torres",
+    "motivo_consulta": "Dolor en molar.",
+    "diagnostico": {
+      "descripcion": "Caries profunda.",
+      "codigo_cie": "K02.1"
+    },
+    "tratamiento": {
+      "procedimiento": "Endodoncia.",
+      "costo_usd": 750,
+      "estado": "En progreso"
+    },
+    "notas_adicionales": "Cita en 2 semanas."
+  },
+  {
+    "id_consulta": "C004",
+    "paciente": {
+      "nombre": "Ricardo Vargas",
+      "id_paciente": "P115",
+      "edad": 52,
+      "genero": "Masculino"
+    },
+    "fecha": "2025-09-28",
+    "hora": "04:00 PM",
+    "dentista": "Dra. Elena Torres",
+    "motivo_consulta": "Implante dental.",
+    "diagnostico": {
+      "descripcion": "Ausencia de pieza 24.",
+      "codigo_cie": "K08.1"
+    },
+    "tratamiento": {
+      "procedimiento": "Colocación de implante de titanio.",
+      "costo_usd": 1200,
+      "estado": "Pendiente"
+    },
+    "notas_adicionales": "Requiere evaluación de tomografía."
+  }
+]
